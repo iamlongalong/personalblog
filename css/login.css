@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+}
+body{
+	height:100%;
+	width: 100%;
+}
+#container{
+	position: absolute;
+	background-color:#009393;
+	width: 100%;
+	height:100%;
+	background-size: cover;
+	background-position: center;
+	/*min-height: 600px;*/
+}
+#beforegree{
+	height: 12%;
+}
+#greeting{
+	-webkit-text-stroke: 1px gray;  
+	text-align: center;
+	font-family: "Comic Sans MS",cursive,"sans-serif";
+	font-size: 70px;
+	color: white;
+	position: relative;
+	height: 20%;
+}
+#intro{
+	-webkit-text-stroke: 0.4px black;  
+	text-align:center;
+	font-family: "Comic Sans MS",cursive,"sans-serif";
+	font-size:20px;
+	color: snow;
+	width: 500px;
+	position: relative;
+	margin: 0 auto;
+	height: 20%;
+	width: 40%;
+}
+#betwIntroLog{
+	height: 3%;
+}
+#login{
+	text-align:center;
+	width: 30%;
+	height: 22%;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	border:1px solid rgba(250,235,215,0.2);
+	background-color:rgba(250,235,215,0.2);
+	box-shadow: 2px 2px 5px #333333;
+}
+#login-intro{
+	font-family: "Comic Sans MS",cursive,"sans-serif";
+	text-align: center;
+	margin: 0px auto;
+	color:white;
+	margin-top: 5px;
+	padding-bottom: 20px;
+	font-size:22px;
+	width: 100%;
+	height:20%;
+	-webkit-text-stroke: 0.5px gray;  
+}
+#login-form{
+	width: 100%;
+	height:20%;
+}
+#login-input{
+	width: 60%;
+	height:36%;
+	float: left;
+}
+#login-uid{
+	width: 100%;
+	height: 16%;
+}
+#betwIdPwd{
+	padding:5px;
+	width: 100%;
+	height: 2%;
+}
+#login-pwd{
+	width: 100%;
+	height: 16%;
+}
+.input{
+	font-family: "Comic Sans MS",cursive,"sans-serif";
+	line-height: 25px;
+	color: snow;	
+	width: 60%;
+	border: none;
+	border-bottom: 1px solid gray;
+	background-color:rgba(0,0,0,0.3);
+	-webkit-box-shadow:1px 1px 5px #333333;
+}
+
+input::-webkit-input-placeholder {
+  /* WebKit browsers */
+  	color: #00B2EE;
+	}
+input:focus {
+	background-color：transparent;
+}
+#submit{
+		padding: 0px 2% 0px 0px;
+		height: 60px;
+
+}
+[type=submit]{
+	height: 100%;
+	width: 38%;
+	background-color: rgba(74,112,139,0.4);
+	color: snow;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+	font-size: 20px;
+	font-family:"Comic Sans MS",cursive,"sans-serif";
+	-webkit-box-shadow:1.5px 1.5px 5px #333333;
+}
+#spanlog {
+	width:100%;
+	height: 11%;
+}
+#footing{
+	font-family: monospace;
+	color: white;
+	position: relative;
+	height: 9%;
+	text-align:center;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	line-height: 18px;
+}
